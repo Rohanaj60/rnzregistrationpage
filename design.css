@@ -1,0 +1,49 @@
+html,body{
+color:white;
+margin:0;
+padding:0;
+background-image:url('4.jpg'); 
+background-repeat: no-repeat;
+}
+#container{
+	border:2px solid purple;
+	width:280px;
+	box-sizing:border-box;
+
+border-radius:40px 0px 40px 0px;
+padding:30px;
+margin:50px 50px 0px 900px;
+float:left;
+background-color:navy/*turquoise*/; 
+}
+.btn{
+	width: 100%;
+	margin-top:10px;
+	padding:10px;
+	background-color:white;
+border-radius:10px 10px 10px 10px; 
+}
+
+
+#input,#input1,#country,#email{
+  background-color:whitesmoke;
+  outline: none;
+  margin:10px 0 10px 0;
+  width:100%;
+  padding-bottom:10px;
+  padding-left:5px;
+
+border-radius:10px;
+box-shadow:2px 1px black;
+
+
+}
+.btn:hover{
+	background-color:navy; 
+	color:white;
+opacity:1; 
+}
+p{
+	font-size:20px;
+	text-align: center;
+}
